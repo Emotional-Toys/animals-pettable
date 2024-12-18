@@ -17,4 +17,5 @@ Samples for WaveformsSDK are at: c:\Program Files (x86)\Digilent\WaveFormsSDK\sa
 15.06.2023
 	1318: I have unpacked this code as it is relevant for task D3 of a huggable prototype.
 	1321: This needs to retarget core, framework is incompatible with the USB-GPIO software. Check into the Waveforms SDK. The initiative should be all projects run on core where it is easy to model into a container.
-
+18.12.2024
+	1136: This is fine but the project needs to be retargeted to sdk9.0 and not a winforms thingy.
