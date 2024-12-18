@@ -1,0 +1,21 @@
+﻿December 2022
+Animals Pettable Interface Code
+
+Samples for WaveformsSDK are at: c:\Program Files (x86)\Digilent\WaveFormsSDK\samples\
+
+08.12.2022
+	1146: Here is the new project to develop the pettable interface, with the support of the RVO. As there is only a wrapper for C#, you will have to extrapolate the samples from python or c or c++ to get underway.
+	1206: I have the library ready to leverage and can use the MPU and Dynamixel code to guide me. Don't bother interacting with Digilent as they are quite faggoty.
+10.12.2022
+	1512: On the road with animals and trying to get a sense of how this laptop opened works. Now got some Numan on to make the ride easier than it has been up until this point.
+	1526: Having a look at this code and not sure if I can do anything without a comparative.
+	1528: I think that the library name rather than path like with Dynamixel is that the library is in the same directory as the class. This will be my working assumption. All seems good but now I need to understand WHAT to pull from the device for the data required. And that I have not yet made the determination of.
+11.12.2022
+	1313: Keep in-mind to remember that when developing WinForms/Controls for specific applicaitons that the target is tablet.
+	1314: Creating a pet-detecting interface application as the place where to begin implementation.
+	1342: I have material and bus wire with me to start weaving the interfaces. Still bloody cold in this dormature and getting to the point of purely wanting to chill. Maybe in an hour, 1500 sounds like a good stop.
+15.06.2023
+	1318: I have unpacked this code as it is relevant for task D3 of a huggable prototype.
+	1321: This needs to retarget core, framework is incompatible with the USB-GPIO software. Check into the Waveforms SDK. The initiative should be all projects run on core where it is easy to model into a container.
+18.12.2024
+	1121: Development is continuing in the cartheur-research github folder as a public-facing project.

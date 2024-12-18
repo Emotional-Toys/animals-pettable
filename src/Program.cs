@@ -1,17 +1,13 @@
 ﻿using Cartheur.Animals.Pettable.WaveformSDK;
-using System.Drawing;
-using System.Windows.Forms;
+using System;
 
 namespace Cartheur.Animals.Pettable
 {
-    public partial class MainForm : Form
+    public class Program
     {
-        public static bool Instance { get; set; }
-        //public static MCP2221 Device { get; set; }
-        public MainForm()
+        public static void Main(string[] args)
         {
-            InitializeComponent();
-            Instance = true;
+
         }
         public void InitializeBoard()
         {
@@ -31,20 +27,14 @@ namespace Cartheur.Animals.Pettable
             // Use the GPIO(ADC) of the MCP2221A as input from the antenna (hardware).
         }
 
-        #region Events
         private void PettedDetectedAntennaOneButtonClick(object sender, System.EventArgs e)
         {
-            PetDetectedAntennaOneButton.BackColor = Color.LightGreen;
+            //PetDetectedAntennaOneButton.BackColor = Color.LightGreen;
         }
         private void PetDetectedAntennaTwoButtonClick(object sender, System.EventArgs e)
         {
-            PetDetectedAntennaTwoButton.BackColor = Color.Bisque;
+            //PetDetectedAntennaTwoButton.BackColor = Color.Bisque;
         }
-        private void CloseButtonClick(object sender, System.EventArgs e)
-        {
-            Instance = false;
-            Close();
-        }
-        #endregion
+
     }
 }
