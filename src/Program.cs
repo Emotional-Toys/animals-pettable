@@ -7,15 +7,21 @@ namespace Cartheur.Animals.Pettable
     {
         public static void Main(string[] args)
         {
-
+            // Run the sequence.
+            InitializeBoard();
+            IntializeDigilent();
+            RetrieveDigilentData();
+            RetrieveRawData();
+            Console.WriteLine("Sequence completed.");
+            Console.ReadLine();
         }
         public void InitializeBoard()
         {
-
+            Console.WriteLine("Initializing the board...");
         }
         public void IntializeDigilent()
         {
-
+            Console.WriteLine("Initializing Digilent device...");
         }
         public void RetrieveDigilentData()
         {
