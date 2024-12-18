@@ -19,3 +19,4 @@ Samples for WaveformsSDK are at: c:\Program Files (x86)\Digilent\WaveFormsSDK\sa
 	1321: This needs to retarget core, framework is incompatible with the USB-GPIO software. Check into the Waveforms SDK. The initiative should be all projects run on core where it is easy to model into a container.
 18.12.2024
 	1121: Development is continuing in the cartheur-research github folder as a public-facing project.
+	1151: Now it is a proper SDK console project.
