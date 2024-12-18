@@ -15,19 +15,19 @@ namespace Cartheur.Animals.Pettable
             Console.WriteLine("Sequence completed.");
             Console.ReadLine();
         }
-        public void InitializeBoard()
+        public static void InitializeBoard()
         {
             Console.WriteLine("Initializing the board...");
         }
-        public void IntializeDigilent()
+        public static void IntializeDigilent()
         {
             Console.WriteLine("Initializing Digilent device...");
         }
-        public void RetrieveDigilentData()
+        public static void RetrieveDigilentData()
         {
             // Get the desired data from the oscilloscope of pet detection, and of what kind?
         }
-        public void RetrieveRawData()
+        public static void RetrieveRawData()
         {
             // Get the datastream from an ADC of the signals arriving from the antenna: Includes the precision rectifier circuit I have planned and a circuit-board ready.
             // Use the GPIO(ADC) of the MCP2221A as input from the antenna (hardware).
