@@ -23,3 +23,4 @@ Samples for WaveformsSDK are at: c:\Program Files (x86)\Digilent\WaveFormsSDK\sa
 	1209: Migration complete.
 22.12.2024
 	1259: Project is properly organized and contains only its relevant files.
+	2109: I might migrate this back into huggable.
